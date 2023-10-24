@@ -12,6 +12,7 @@ const Formulario = ({ createTenista, editarTenista, editarT, setEditarT }) => {
     });
     //console.log(tenista);
   };
+  console.log("hola ");
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!tenista.name || !tenista.torneo) {
